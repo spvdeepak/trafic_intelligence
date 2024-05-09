@@ -1,38 +1,38 @@
+import {Link} from "react-router-dom"
 const Login = () => {
     return (
-        <div>
-            <div className="flex justify-center items-center h-screen font-primary bg-[#00ffff]"    >
-                <div className="w-1/2 h-screen hidden lg:block">
-                    <img src="https://img.freepik.com/premium-photo/photo-medic-ambulance-duty-highway-road_899504-2935.jpg" alt="Placeholder Image" className="object-cover w-full h-full" />
+        <div className="overflow-hidden">
+            <div className="flex flex-col justify-center items-center h-screen font-primary bg-purple-300">
+                <div className="flex flex-col items-center justify-center">
+                    <div className="text-3xl font-title mt-20 font-semibold uppercase ">Traffic Intelligence</div>
+                    <div className="text-md font-title mt-2 mb-16 font-semibold">DCSE Anna University</div>
                 </div>
-
-                <div className="absolute top-0 text-3xl font-title mt-24 font-semibold uppercase">Traffic Intelligence</div>
-
-                <div className="p-8 w-full">
-                    <h1 className="text-2xl font-semibold mb-4 font-title text-center">Ambulance Login</h1>
+                <div className="p-8 w-full bg-[#fdfefe] h-full rounded-t-[35px]">
+                    <h1 className="text-2xl font-semibold mb-4 font-title2 border-b-2 pb-3 pt-6">Ambulance Login</h1>
                     <form action="#" method="POST" className="mt-10">
                         <div className="mb-4">
                             <label for="username" className="uppercase block text-gray-600 text-xl pb-3">Vehicle No</label>
-                            <input type="text" id="username" name="username" placeholder="TN28AB0202" className="uppercase tracking-wider w-full border border-gray-300 rounded-lg py-5 px-4 text-2xl focus:outline-none focus:border-blue-500" autocomplete="off" required />
+                            <input type="text" id="username" name="username" placeholder="TN28AB0202" className="uppercase tracking-wider w-full border border-gray-300 bg-[#f4f8fa] rounded-lg py-5 px-4 text-2xl focus:outline-none focus:border-purple-500 focus:border-2" autocomplete="off" required />
                         </div>
-                        
+
                         <div className="mb-4">
                             <label for="password" className="uppercase block text-gray-600 text-xl pb-3">Password</label>
-                            <input type="password" id="password" placeholder="********" name="password" className="uppercase w-full border border-gray-300 rounded-lg py-5 px-4 text-2xl focus:outline-none focus:border-blue-500" autocomplete="off" required />
+                            <input type="password" id="password" placeholder="********" name="password" className="uppercase w-full border border-gray-300 bg-[#f4f8fa] rounded-lg py-5 px-4 text-2xl focus:outline-none focus:border-purple-500 focus:border-2" autocomplete="off" required />
                         </div>
-                        
+
                         {/* <div className="mb-4 flex items-center">
                             <input type="checkbox" id="remember" name="remember" className="text-blue-500" />
                                 <label for="remember" className="text-gray-600 ml-2">Remember Me</label>
                         </div> */}
-                        
+
                         {/* <div className="mb-6 text-blue-500">
                             <a href="#" className="hover:underline">Forgot Password?</a>
                         </div> */}
-                        
-                        <button type="submit" className="bg-blue-500 font-title tracking-wider uppercase hover:bg-blue-600 text-white font-semibold rounded-md py-4 px-4 left-0 right-0 absolute bottom-8 w-[90%] m-auto">Login</button>
+                        <Link to="/dashboard">
+                            <button type="submit" className="bg-purple-700 font-title tracking-wider uppercase hover:bg-purple-500 text-white font-semibold rounded-md py-5 px-4 w-full m-auto mt-4">Login</button>
+                        </Link>
                     </form>
-                    
+
                     {/* <div className="mt-6 text-blue-500 text-center">
                         <a href="#" className="hover:underline">Sign up Here</a>
                     </div> */}

@@ -15,11 +15,16 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
+      colors:{
+        'custpurple': '#546ce3'
+      }
     },
     extend: {
       fontFamily: {
-        title: ["Nova Square"],
-        primary: ["Titillium Web"],
+        titlesec: ["Space Grotesk"],
+        title: ["Jost"],
+        title2: ["Plus Jakarta Sans"],
+        primary: ["Noto Sans"],
       },
       keyframes: {
         "accordion-down": {
