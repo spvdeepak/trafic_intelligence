@@ -62,7 +62,7 @@ const Traffic = () => {
       <div className='flex flex-col justify-center items-center h-screen font-primary bg-purple-300'>
         <div className="flex flex-col items-center justify-center">
           <div className="text-3xl font-title mt-12 font-semibold uppercase ">Traffic Intelligence</div>
-          <div className="text-md font-title mt-2 mb-10 font-semibold">DCSE Anna University</div>
+          <div className="text-md font-title mt-2 mb-10 font-semibold">IST Anna University</div>
         </div>
         <div className='bg-[#fdfefe] w-full h-full rounded-t-[35px] p-8'>
           <h1 className="text-2xl font-semibold mb-4 font-title2 border-b-2 pb-3 pt-6">Signals Identified</h1>
