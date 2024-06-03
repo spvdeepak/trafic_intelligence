@@ -19,7 +19,7 @@ const Login = () => {
                             <label for="password" className="uppercase block text-gray-600 text-xl pb-3">Password</label>
                             <input type="password" id="password" placeholder="********" name="password" className="uppercase w-full border border-gray-300 bg-[#f4f8fa] rounded-lg py-5 px-4 text-2xl focus:outline-none focus:border-purple-500 focus:border-2" autocomplete="off" required />
                         </div>
-
+                        
                         {/* <div className="mb-4 flex items-center">
                             <input type="checkbox" id="remember" name="remember" className="text-blue-500" />
                                 <label for="remember" className="text-gray-600 ml-2">Remember Me</label>
